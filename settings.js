@@ -1,7 +1,7 @@
 const getOnArrayHasKey = function(array,key){
-let bool;
-arra.forEach(collection)
-return bool;
+let map;
+array.forEach((group)=>{if(group.hasOwnProperty(key){map = group[key];}else{group})})
+return map;
 }
 // Define the root object to store the global context
 const root = {
