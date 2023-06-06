@@ -82,7 +82,6 @@ Settings.enableResources = function() {
             root.Resources.values.CSS = class {};
             root.Resources.values.Date = class {};
             root.Resources.values.HTML = class {};
-            root.Resources.values.Item = class {};
             root.Resources.values.Map = class {};
             root.Resources.values.Markup = class {};
             root.Resources.values.Matrix = class {};
