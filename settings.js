@@ -101,17 +101,17 @@ Settings.enableResources = function() {
             root.Resources.values.Bool = function(name,...elements) {
                 return class {
                     constructor() {
-                        this.array = [];
+                        this.bool = [];
                         this.pushArray();
                     }
                     pushArray()
                     {
-                        this.array.push({[name]:[...elements]});
+                        this.bool.push({[name]:bool});
                     }
                     getArray()
-                    {let arr;
-                      this.array.forEach((node)=>{if(node.name == name){arr = node[name]}});
-                      return arr;
+                    {let tmp;
+                      this.array.forEach((node)=>{if(node.name == name){tmp = node[name]}});
+                      return tmp;
                     }
                     methods()
                     {
