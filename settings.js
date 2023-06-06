@@ -89,9 +89,9 @@ Settings.enableResources = function() {
                     }
                     getArray() {
                         let value;
-                        this.array.forEach((node)=> {
-                            if (node.name == name) {
-                                value = node[name]}});
+                        this.array.forEach((item)=> {
+                            if (item.hasOwnProperty(name)) {
+                                value = item[name]}});
                         return value;
                     }
                     methods() {
