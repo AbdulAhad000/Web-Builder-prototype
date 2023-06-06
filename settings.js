@@ -116,13 +116,7 @@ Settings.enableResources = function() {
                         });
                     }
                     getBool() {
-                        let value;
-                        this.bool.forEach((item) => {
-                            if (item[name]) {
-                                value = item[name];
-                            }
-                        });
-                        return value;
+                        return getOnArrayHasKey(this.bool,name)
                     }
                     methods() {
                         return {
