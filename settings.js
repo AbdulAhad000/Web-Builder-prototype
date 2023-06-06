@@ -105,14 +105,15 @@ Settings.enableResources = function() {
                     }
                 }};
             root.Resources.values.Bool = function (name, bool) {
-                
-                return class {
-                    constructor() {
-                        if(!(this instanceof root.Resources.values.Bool))
+                if(!(this instanceof root.Resources.values.Bool))
                         {
                            const instance = root.Resources.values.Bool(name,bool);
                            return new instance()
                         }
+                
+                return class {
+                    constructor() {
+                        
                         this.bool = [];
                         this.pushBool();
                     }
