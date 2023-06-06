@@ -34,7 +34,10 @@ Settings.enableResources = function() {
     Settings.Resources = {"values":{}};
     return {
         "Resources":function() {
-            const values = {}; return values;
+            const Item = class {
+                
+            };
+            return new Item();
         },
         "disableResources":function() {
             return Settings.disableResources()}}};
