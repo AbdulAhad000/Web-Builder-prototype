@@ -1,5 +1,6 @@
 // Define the root object to store the global context
-const root = {"Item":class{}};
+const root = {
+    "Item": class {}};
 
 // Define the Settings object to store configuration settings
 const Settings = {};
@@ -77,23 +78,74 @@ Settings.enableResources = function() {
         // Get the resources values object
         "Resources": function() {
             // Define various classes for different data types
-            root.Resources.values.Array = class {constructor(){this.}};
-            root.Resources.values.Bool = class {constructor(){this.}};
-            root.Resources.values.CSS = class {constructor(){this.}};
-            root.Resources.values.Date = class {constructor(){this.}};
-            root.Resources.values.HTML = class {constructor(){this.}};
-            root.Resources.values.Map = class {constructor(){this.}};
-            root.Resources.values.Markup = class {constructor(){this.}};
-            root.Resources.values.Matrix = class {constructor(){this.}};
-            root.Resources.values.MatrixBox = class {constructor(){this.}};
-            root.Resources.values.Node = class {constructor(){this.}};
-            root.Resources.values.Number = class {constructor(){this.}};
-            root.Resources.values.Queue = class {constructor(){this.}};
-            root.Resources.values.Sequence = class {constructor(){this.}};
-            root.Resources.values.Set = class {constructor(){this.}};
-            root.Resources.values.Stack = class {constructor(){this.}};
-            root.Resources.values.String = class {constructor(){this.}};
-            root.Resources.values.Tree = class {constructor(){this.}};
+            root.Resources.values.Array = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Bool = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.CSS = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Date = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.HTML = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Map = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Markup = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Matrix = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.MatrixBox = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Node = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Number = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Queue = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Sequence = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Set = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Stack = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.String = class {
+                constructor() {
+                    this.
+                }};
+            root.Resources.values.Tree = class {
+                constructor() {
+                    this.
+                }};
 
             return root.Resources.values;
         },
