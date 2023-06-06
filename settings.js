@@ -80,7 +80,7 @@ Settings.enableResources = function() {
             // Define various classes for different data types
             root.Resources.values.Array = class {
                 constructor() {
-                    this.
+                    this.array = [];
                 }};
             root.Resources.values.Bool = class {
                 constructor() {
