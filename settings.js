@@ -1,5 +1,7 @@
-const collectionHasKey = function(){
-    
+const getOnArrayHasKey = function(array,key){
+let bool;
+arra.forEach(collection)
+return bool;
 }
 // Define the root object to store the global context
 const root = {
