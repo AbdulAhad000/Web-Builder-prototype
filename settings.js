@@ -35,57 +35,75 @@ Settings.enableResources = function() {
         "values": {}};
     return {
         "Resources":function() {
-            values.Item = class {
-                
-            };
-            values.Bool = class {
-                
-            }
-            values.String = class {
-                
-            }
-            values.Array = class {
-                
-            }
-            values.Map = class  {
-                
-            }
-            values.Set = class  {
-                
-            }
-            values.Matrix = class {
-                
-            }
-            values.MatrixBox = class {
-                
-            }
-            values.Node = class {
-                
-            }
-            values.Tree = class {
-                
-            }
-            values.Markup = class {
-                
-            }
-            values.HTML = class {
-                
-            }
-            values.CSS = class {
-                
-            }
-            values.Number = class {
-                
-            }
-            values.Date = class {
-                
-            }
-            values.Sequence = class {
-                
-            }
-            values.Queue = class {
-                
-            }
+            Here's the alphabetically arranged list:
+
+values.Array = class {
+
+}
+
+values.Bool = class {
+
+}
+
+values.CSS = class {
+
+}
+
+values.Date = class {
+
+}
+
+values.HTML = class {
+
+}
+
+values.Item = class {
+
+}
+
+values.Map = class {
+
+}
+
+values.Markup = class {
+
+}
+
+values.Matrix = class {
+
+}
+
+values.MatrixBox = class {
+
+}
+
+values.Node = class {
+
+}
+
+values.Number = class {
+
+}
+
+values.Queue = class {
+
+}
+
+values.Sequence = class {
+
+}
+
+values.Set = class {
+
+}
+
+values.String = class {
+
+}
+
+values.Tree = class {
+
+}
             return Resources.values;
         },
         "disableResources":function() {
