@@ -215,7 +215,7 @@ Settings.disableResources = function() {
         }
     }
 }
-Bool = Resources().Bool()
+Bool = Resources().Bool("fun",2>5)
 instanceofBool = new Bool();
 instanceofBool.pushBool();
 instanceofBool.getBool()
