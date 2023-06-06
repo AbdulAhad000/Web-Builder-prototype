@@ -84,6 +84,11 @@ Settings.enableResources = function() {
         "Resources": function() {
             // Define various classes for different data types
             root.Resources.values.Array = function(name, ...elements) {
+                 if(!(this instanceof root.Resources.values.Array))
+                        {
+                           const instance = new root.Resources.values.Array(name,...elements);
+                           return new instance()
+                        }
                 return class {
                     constructor() {
                         this.array = [];
