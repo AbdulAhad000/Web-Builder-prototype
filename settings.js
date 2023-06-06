@@ -1,5 +1,5 @@
 // Define the root object to store the global context
-const root = {"Items":class{}};
+const root = {"Item":class{}};
 
 // Define the Settings object to store configuration settings
 const Settings = {};
