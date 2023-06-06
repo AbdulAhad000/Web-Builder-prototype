@@ -1,6 +1,6 @@
 const getOnArrayHasKey = function(array,key){
 let map;
-array.forEach((group)=>{if(group.hasOwnProperty(key){map = group[key];}else{group})})
+array.forEach((group)=>{if(group.hasOwnProperty(key){map = group[key];})});
 return map;
 }
 // Define the root object to store the global context
