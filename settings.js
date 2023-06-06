@@ -65,6 +65,15 @@ Settings.enableResources = function() {
             values.Tree = class {
                 
             }
+            values.Markup = class {
+                
+            }
+            values.HTML = class {
+                
+            }
+            values.CSS = class {
+                
+            }
             return Resources.values;
         },
         "disableResources":function() {
