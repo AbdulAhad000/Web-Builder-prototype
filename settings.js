@@ -227,3 +227,4 @@ Settings.disableResources = function() {
         }
     }
 }
+R = Resources()
