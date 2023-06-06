@@ -106,8 +106,8 @@ Settings.enableResources = function() {
 // Method to disable resources in the Settings object
 // This method removes the resources object from Settings if it exists
 Settings.disableResources = function() {
-    if (Settings.Resources) {
-        Settings.Resources = undefined;
+    if (root.Resources) {
+        root.Resources = undefined;
     }
 
     return {
