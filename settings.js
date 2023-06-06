@@ -80,6 +80,12 @@ Settings.enableResources = function() {
             values.Date = class {
                 
             }
+            values.Sequence = class {
+                
+            }
+            values.Queue = class {
+                
+            }
             return Resources.values;
         },
         "disableResources":function() {
