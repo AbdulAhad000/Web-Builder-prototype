@@ -59,6 +59,12 @@ Settings.enableResources = function() {
             values.MatrixBox = class {
                 
             }
+            values.Node = class {
+                
+            }
+            values.Tree = class {
+                
+            }
             return Resources.values;
         },
         "disableResources":function() {
