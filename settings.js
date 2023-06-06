@@ -67,7 +67,7 @@ const Resources = function() {
 // Method to enable resources in the Settings object
 // This method sets up the necessary properties and classes for resources
 Settings.enableResources = function() {
-    Settings.Resources = {
+    root.Resources = {
         "values": {}
     };
 
