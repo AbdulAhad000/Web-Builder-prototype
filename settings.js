@@ -98,26 +98,29 @@ Settings.enableResources = function() {
                         return {...root.Utility.utility.Array.loadMethods(this.getArray())}
                     }
                 }};
-            root.Resources.values.Bool = function(name,bool) {
-                return class {
-                    constructor() {
-                        this.bool = [];
-                        this.pushArray();
-                    }
-                    pushArray()
-                    {
-                        this.bool.push({[name]:Boolean(bool)});
-                    }
-                    getArray()
-                    {let value;
-                      this.array.forEach((item)=>{if(item.name == name){value = item[name]}});
-                      return value;
-                    }
-                    methods()
-                    {
-                        return {...root.Utility.utility.Bool.loadMethods(this.getArray())}
-                    }
-                }};
+            root.Resources.values.Bool = function (name, bool) {
+  return class {
+    constructor() {
+      this.bool = [];
+      this.pushBool();
+    }
+    pushBool() {
+      this.bool.push({ [name]: Boolean(bool) });
+    }
+    getBool() {
+      let value;
+      this.bool.forEach((item) => {
+        if (item[name]) {
+          value = item[name];
+        }
+      });
+      return value;
+    }
+    methods() {
+      return { ...root.Utility.utility.Bool.loadMethods(this.getBool()) };
+    }
+  };
+};
             root.Resources.values.CSS = class {
                 constructor() {
                     this.css = [];
