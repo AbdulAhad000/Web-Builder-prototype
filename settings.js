@@ -75,10 +75,10 @@ Settings.enableResources = function() {
         // Get the resources values object
         "Resources": function() {
             // Define various classes for different data types
-            root.root.values.Array = class {}
-            root.root.values.Bool = class {}
-            root.root.values.CSS = class {}
-            root.root.values.Date = class {}
+            root.Resources.values.Array = class {}
+            root.Resources.values.Bool = class {}
+            root.Resources.values.CSS = class {}
+            root.Resources.values.Date = class {}
             root.root.values.HTML = class {}
             root.root.values.Item = class {}
             root.values.Map = class {}
