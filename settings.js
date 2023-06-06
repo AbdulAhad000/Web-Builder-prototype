@@ -78,10 +78,10 @@ Settings.enableResources = function() {
         // Get the resources values object
         "Resources": function() {
             // Define various classes for different data types
-            root.Resources.values.Array = class {
+            root.Resources.values.Array = function(){return class {
                 constructor() {
                     this.array = [];
-                }};
+                }}};
             root.Resources.values.Bool = class {
                 constructor() {
                     this.bool = [];
