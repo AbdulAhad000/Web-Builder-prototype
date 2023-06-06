@@ -1,6 +1,6 @@
 // Define the root object to store the global context
 const root = {
-    "Item": class{}};
+    "Item": class {}};
 
 // Define the Settings object to store configuration settings
 const Settings = {};
@@ -78,49 +78,54 @@ Settings.enableResources = function() {
         // Get the resources values object
         "Resources": function() {
             // Define various classes for different data types
-            root.Resources.values.Array = function(name,...elements) {
+            root.Resources.values.Array = function(name, ...elements) {
                 return class {
                     constructor() {
                         this.array = [];
                         this.pushArray();
                     }
-                    pushArray()
-                    {
-                        this.array.push({[name]:[...elements]});
+                    pushArray() {
+                        this.array.push({[name]: [...elements]});
                     }
-                    getArray()
-                    {let value;
-                      this.array.forEach((node)=>{if(node.name == name){value = node[name]}});
-                      return value;
+                    getArray() {
+                        let value;
+                        this.array.forEach((node)=> {
+                            if (node.name == name) {
+                                value = node[name]}});
+                        return value;
                     }
-                    methods()
-                    {
-                        return {...root.Utility.utility.Array.loadMethods(this.getArray())}
+                    methods() {
+                        return {
+                            ...root.Utility.utility.Array.loadMethods(this.getArray())}
                     }
                 }};
             root.Resources.values.Bool = function (name, bool) {
-  return class {
-    constructor() {
-      this.bool = [];
-      this.pushBool();
-    }
-    pushBool() {
-      this.bool.push({ [name]: Boolean(bool) });
-    }
-    getBool() {
-      let value;
-      this.bool.forEach((item) => {
-        if (item[name]) {
-          value = item[name];
-        }
-      });
-      return value;
-    }
-    methods() {
-      return { ...root.Utility.utility.Bool.loadMethods(this.getBool()) };
-    }
-  };
-};
+                return class {
+                    constructor() {
+                        this.bool = [];
+                        this.pushBool();
+                    }
+                    pushBool() {
+                        this.bool.push({
+                            [name]: Boolean(bool)
+                        });
+                    }
+                    getBool() {
+                        let value;
+                        this.bool.forEach((item) => {
+                            if (item[name]) {
+                                value = item[name];
+                            }
+                        });
+                        return value;
+                    }
+                    methods() {
+                        return {
+                            ...root.Utility.utility.Bool.loadMethods(this.getBool())
+                        };
+                    }
+                };
+            };
             root.Resources.values.CSS = class {
                 constructor() {
                     this.css = [];
