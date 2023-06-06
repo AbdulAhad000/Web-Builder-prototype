@@ -92,6 +92,7 @@ Settings.enableResources = function() {
             root.Resources.values.Queue = class {};
             root.Resources.values.Sequence = class {};
             root.Resources.values.Set = class {};
+            root.Resources.values.Stack = class {};
             root.Resources.values.String = class {};
             root.Resources.values.Tree = class {};
 
