@@ -110,7 +110,8 @@ Settings.enableResources = function() {
                     constructor() {
                         if(!(this instanceof root.Resources.values.Bool(name,bool)))
                         {
-                            return new root.Resources.values.Bool(name,bool)()
+                           const instance = root.Resources.values.Bool(name,bool)
+                           return new instance()
                         }
                         this.bool = [];
                         this.pushBool();
