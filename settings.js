@@ -105,8 +105,13 @@ Settings.enableResources = function() {
                     }
                 }};
             root.Resources.values.Bool = function (name, bool) {
+                
                 return class {
                     constructor() {
+                        if(!(this instanceof root.Resources.values.Bool))
+                        {
+                            return new root.Resources.values.Bool(name,bool)()
+                        }
                         this.bool = [];
                         this.pushBool();
                     }
