@@ -82,16 +82,16 @@ Settings.enableResources = function() {
             root.Resources.values.HTML = class {}
             root.Resources.values.Item = class {}
             root.Resources.values.Map = class {}
-            root.values.Markup = class {}
-            root.values.Matrix = class {}
-            root.values.MatrixBox = class {}
-            root.values.Node = class {}
-            root.values.Number = class {}
-            root.values.Queue = class {}
-            root.values.Sequence = class {}
-            root.values.Set = class {}
-            root.values.String = class {}
-            root.values.Tree = class {}
+            root.Resourcesvalues.Markup = class {}
+            root.Resourcesvalues.Matrix = class {}
+            root.Resourcesvalues.MatrixBox = class {}
+            root.Resourcesvalues.Node = class {}
+            root.Resourcesvalues.Number = class {}
+            root.Resourcesvalues.Queue = class {}
+            root.Resourcesvalues.Sequence = class {}
+            root.Resourcesvalues.Set = class {}
+            root.Resourcesvalues.String = class {}
+            root.Resourcesvalues.Tree = class {}
 
             return root.Resources.values;
         },
