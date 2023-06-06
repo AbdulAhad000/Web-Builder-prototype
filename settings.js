@@ -1,3 +1,6 @@
+const collectionHasProperty = function(){
+    
+}
 // Define the root object to store the global context
 const root = {
     "Item": class {}};
