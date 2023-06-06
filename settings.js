@@ -47,7 +47,9 @@ Settings.enableResources = function() {
             values.Array = class {
                 
             }
-            va
+            values.Map = class = {
+                
+            }
             return Resources.values;
         },
         "disableResources":function() {
