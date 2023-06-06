@@ -47,10 +47,16 @@ Settings.enableResources = function() {
             values.Array = class {
                 
             }
-            values.Map = class = {
+            values.Map = class  {
                 
             }
-            values.Set = class = {
+            values.Set = class  {
+                
+            }
+            values.Matrix = class {
+                
+            }
+            values.MatrixBox = class {
                 
             }
             return Resources.values;
