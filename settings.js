@@ -91,7 +91,7 @@ Settings.enableResources = function() {
             values.Set = class {}
             values.String = class {}
             values.Tree = class {}
-            
+
             return Resources.values;
         },
 
