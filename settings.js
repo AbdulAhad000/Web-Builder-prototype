@@ -89,16 +89,16 @@ Settings.enableResources = function() {
                         this.array.push({[name]:[...elements]});
                     }
                     getArray()
-                    {let arr;
-                      this.array.forEach((node)=>{if(node.name == name){arr = node[name]}});
-                      return arr;
+                    {let value;
+                      this.array.forEach((node)=>{if(node.name == name){value = node[name]}});
+                      return value;
                     }
                     methods()
                     {
                         return {...root.Utility.utility.Array.loadMethods(this.getArray())}
                     }
                 }};
-            root.Resources.values.Bool = function(name,...elements) {
+            root.Resources.values.Bool = function(name,bool) {
                 return class {
                     constructor() {
                         this.bool = [];
@@ -106,16 +106,16 @@ Settings.enableResources = function() {
                     }
                     pushArray()
                     {
-                        this.bool.push({[name]:bool});
+                        this.bool.push({[name]:Boolean(bool)});
                     }
                     getArray()
-                    {let tmp;
-                      this.array.forEach((node)=>{if(node.name == name){tmp = node[name]}});
-                      return tmp;
+                    {let value;
+                      this.array.forEach((item)=>{if(item.name == name){value = item[name]}});
+                      return value;
                     }
                     methods()
                     {
-                        return {...root.Utility.utility.Array.loadMethods(this.getArray())}
+                        return {...root.Utility.utility.Bool.loadMethods(this.getArray())}
                     }
                 }};
             root.Resources.values.CSS = class {
