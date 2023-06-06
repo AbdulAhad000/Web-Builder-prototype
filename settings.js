@@ -108,7 +108,7 @@ Settings.enableResources = function() {
                 
                 return class {
                     constructor() {
-                        if(!(this instanceof root.Resources.values.Bool))
+                        if(!(this instanceof root.Resources.values.Bool(name,bool)))
                         {
                             return new root.Resources.values.Bool(name,bool)()
                         }
