@@ -74,6 +74,12 @@ Settings.enableResources = function() {
             values.CSS = class {
                 
             }
+            values.Number = class {
+                
+            }
+            values.Date = class {
+                
+            }
             return Resources.values;
         },
         "disableResources":function() {
