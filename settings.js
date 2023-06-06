@@ -13,18 +13,18 @@ const Extracts = function() {
 // Method to enable extracts in the Settings object
 // This method sets up the necessary properties and methods for extracts
 Settings.enableExtracts = function() {
-    Settings.Extracts = {};
+    root.Extracts = {};
 
     return {
         // Get the extracts object
         "Extracts": function() {
-            return Settings.Extracts;
+            return root.Extracts;
         },
 
         // Clear the extracts object
         "clearExtracts": function() {
-            Settings.Extracts = {};
-            return Settings.Extracts;
+            root.Extracts = {};
+            return root.Extracts;
         },
 
         // Disable extracts and return the updated object
@@ -37,8 +37,8 @@ Settings.enableExtracts = function() {
 // Method to disable extracts in the Settings object
 // This method removes the extracts object from Settings if it exists
 Settings.disableExtracts = function() {
-    if (Settings.Extracts) {
-        Settings.Extracts = undefined;
+    if (root.Extracts) {
+        root.Extracts = undefined;
     }
 
     return {
