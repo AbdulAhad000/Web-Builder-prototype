@@ -88,6 +88,14 @@ Settings.enableResources = function() {
                     {
                         array.push({[name]:[...elements]});
                     }
+                    getArray()
+                    {
+                        
+                    }
+                    methods()
+                    {
+                        return {...root.Utility.utility.Array.loadMethods(array)}
+                    }
                 }};
             root.Resources.values.Bool = class {
                 constructor() {
