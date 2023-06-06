@@ -1,4 +1,4 @@
-const collectionHasProperty = function(){
+const collectionHasKey = function(){
     
 }
 // Define the root object to store the global context
