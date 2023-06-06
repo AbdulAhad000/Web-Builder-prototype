@@ -227,4 +227,6 @@ Settings.disableResources = function() {
         }
     }
 }
-h = Resources().Bool()
+getBool = function(name,bool){
+    return Resources().Bool(name,bool).getBool()
+}
