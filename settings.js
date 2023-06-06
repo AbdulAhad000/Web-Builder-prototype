@@ -75,23 +75,23 @@ Settings.enableResources = function() {
         // Get the resources values object
         "Resources": function() {
             // Define various classes for different data types
-            root.Resources.values.Array = class {}
-            root.Resources.values.Bool = class {}
-            root.Resources.values.CSS = class {}
-            root.Resources.values.Date = class {}
-            root.Resources.values.HTML = class {}
-            root.Resources.values.Item = class {}
-            root.Resources.values.Map = class {}
-            root.Resources.values.Markup = class {}
-            root.Resources.values.Matrix = class {}
-            root.Resources.values.MatrixBox = class {}
-            root.Resources.values.Node = class {}
-            root.Resources.values.Number = class {}
-            root.Resources.values.Queue = class {}
-            root.Resources.values.Sequence = class {}
-            root.Resources.values.Set = class {}
-            root.Resources.values.String = class {}
-            root.Resources.values.Tree = class {}
+            root.Resources.values.Array = class {};
+            root.Resources.values.Bool = class {};
+            root.Resources.values.CSS = class {};
+            root.Resources.values.Date = class {};
+            root.Resources.values.HTML = class {};
+            root.Resources.values.Item = class {};
+            root.Resources.values.Map = class {};
+            root.Resources.values.Markup = class {};
+            root.Resources.values.Matrix = class {};
+            root.Resources.values.MatrixBox = class {};
+            root.Resources.values.Node = class {};
+            root.Resources.values.Number = class {};
+            root.Resources.values.Queue = class {};
+            root.Resources.values.Sequence = class {};
+            root.Resources.values.Set = class {};
+            root.Resources.values.String = class {};
+            root.Resources.values.Tree = class {};
 
             return root.Resources.values;
         },
