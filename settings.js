@@ -113,7 +113,7 @@ Settings.disableResources = function() {
     return {
         // Get the resources object
         "Resources": function() {
-            return Settings.Resources;
+            return root.Resources;
         },
 
         // Disable resources and return the updated object
