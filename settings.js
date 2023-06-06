@@ -215,3 +215,4 @@ Settings.disableResources = function() {
         }
     }
 }
+r = new Resources().Bool();
