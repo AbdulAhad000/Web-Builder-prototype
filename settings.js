@@ -38,7 +38,7 @@ Settings.enableResources = function() {
             values.Item = class {
                 
             };
-            return new values.Item();
+            return values;
         },
         "disableResources":function() {
             return Settings.disableResources()}}};
