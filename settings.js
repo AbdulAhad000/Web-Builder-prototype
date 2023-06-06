@@ -31,12 +31,11 @@ Settings.disableExtracts = function() {
 const Resources = function() {
     return Settings.enableResources().Resources()};
 Settings.enableResources = function() {
-    Settings.Resources = {"values":{}};
+    Settings.Resources = {
+        "values": {}};
     return {
         "Resources":function() {
-            const Item = class {
-                
-            };
+            const Item = class {};
             return new Item();
         },
         "disableResources":function() {
