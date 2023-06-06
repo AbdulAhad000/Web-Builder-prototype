@@ -44,13 +44,13 @@ Settings.disableExtracts = function() {
     return {
         // Get the extracts object
         "Extracts": function() {
-            return Settings.Extracts;
+            return root.Extracts;
         },
 
         // Clear the extracts object
         "clearExtracts": function() {
-            Settings.Extracts = {};
-            return Settings.Extracts;
+            root.Extracts = {};
+            return root.Extracts;
         },
 
         // Disable extracts and return the updated object
