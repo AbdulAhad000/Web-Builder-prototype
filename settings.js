@@ -75,23 +75,23 @@ Settings.enableResources = function() {
         // Get the resources values object
         "Resources": function() {
             // Define various classes for different data types
-            root.values.Array = class {}
-            root.values.Bool = class {}
-            root.values.CSS = class {}
-            root.values.Date = class {}
-            root.values.HTML = class {}
-            root.values.Item = class {}
-            values.Map = class {}
-            values.Markup = class {}
-            values.Matrix = class {}
-            values.MatrixBox = class {}
-            values.Node = class {}
-            values.Number = class {}
-            values.Queue = class {}
-            values.Sequence = class {}
-            values.Set = class {}
-            values.String = class {}
-            values.Tree = class {}
+            root.root.values.Array = class {}
+            root.root.values.Bool = class {}
+            root.root.values.CSS = class {}
+            root.root.values.Date = class {}
+            root.root.values.HTML = class {}
+            root.root.values.Item = class {}
+            root.values.Map = class {}
+            root.values.Markup = class {}
+            root.values.Matrix = class {}
+            root.values.MatrixBox = class {}
+            root.values.Node = class {}
+            root.values.Number = class {}
+            root.values.Queue = class {}
+            root.values.Sequence = class {}
+            root.values.Set = class {}
+            root.values.String = class {}
+            root.values.Tree = class {}
 
             return Resources.values;
         },
