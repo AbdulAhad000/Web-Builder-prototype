@@ -95,7 +95,7 @@ Settings.enableResources = function() {
                     }
                     methods()
                     {
-                        return {...root.Utility.utility.Array.loadMethods(array)}
+                        return {...root.Utility.utility.Array.loadMethods(this.getArray())}
                     }
                 }};
             root.Resources.values.Bool = class {
