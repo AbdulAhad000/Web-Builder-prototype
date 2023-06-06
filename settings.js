@@ -86,11 +86,11 @@ Settings.enableResources = function() {
                     }
                     pushArray()
                     {
-                        array.push({[name]:[...elements]});
+                        this.array.push({[name]:[...elements]});
                     }
                     getArray()
                     {
-                        
+                        const array 
                     }
                     methods()
                     {
