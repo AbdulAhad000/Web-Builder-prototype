@@ -83,7 +83,9 @@ Settings.enableResources = function() {
                     constructor() {
                         this.array = [];
                         this.pushArray();
-                    }}};
+                    }
+                    
+                }};
             root.Resources.values.Bool = class {
                 constructor() {
                     this.bool = [];
