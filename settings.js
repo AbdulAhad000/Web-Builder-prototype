@@ -77,23 +77,23 @@ Settings.enableResources = function() {
         // Get the resources values object
         "Resources": function() {
             // Define various classes for different data types
-            root.Resources.values.Array = class {};
-            root.Resources.values.Bool = class {};
-            root.Resources.values.CSS = class {};
-            root.Resources.values.Date = class {};
-            root.Resources.values.HTML = class {};
-            root.Resources.values.Map = class {};
-            root.Resources.values.Markup = class {};
-            root.Resources.values.Matrix = class {};
-            root.Resources.values.MatrixBox = class {};
-            root.Resources.values.Node = class {};
-            root.Resources.values.Number = class {};
-            root.Resources.values.Queue = class {};
-            root.Resources.values.Sequence = class {};
-            root.Resources.values.Set = class {};
-            root.Resources.values.Stack = class {};
-            root.Resources.values.String = class {};
-            root.Resources.values.Tree = class {};
+            root.Resources.values.Array = class {constructor(){this.}};
+            root.Resources.values.Bool = class {constructor(){this.}};
+            root.Resources.values.CSS = class {constructor(){this.}};
+            root.Resources.values.Date = class {constructor(){this.}};
+            root.Resources.values.HTML = class {constructor(){this.}};
+            root.Resources.values.Map = class {constructor(){this.}};
+            root.Resources.values.Markup = class {constructor(){this.}};
+            root.Resources.values.Matrix = class {constructor(){this.}};
+            root.Resources.values.MatrixBox = class {constructor(){this.}};
+            root.Resources.values.Node = class {constructor(){this.}};
+            root.Resources.values.Number = class {constructor(){this.}};
+            root.Resources.values.Queue = class {constructor(){this.}};
+            root.Resources.values.Sequence = class {constructor(){this.}};
+            root.Resources.values.Set = class {constructor(){this.}};
+            root.Resources.values.Stack = class {constructor(){this.}};
+            root.Resources.values.String = class {constructor(){this.}};
+            root.Resources.values.Tree = class {constructor(){this.}};
 
             return root.Resources.values;
         },
