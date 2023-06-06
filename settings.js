@@ -50,6 +50,9 @@ Settings.enableResources = function() {
             values.Map = class = {
                 
             }
+            values.Set = class = {
+                
+            }
             return Resources.values;
         },
         "disableResources":function() {
