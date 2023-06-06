@@ -23,5 +23,4 @@ Settings.disableResources = function(){
     {
     Settings.Resources = undefined;
     }
-    return {"Resources":function(){return Settings.Resources},"disableResources":function(){return Settings.disableResources()}}
-};
+    return {"Resources":function(){return Settings.Resources},"disableResources":function(){return Settings.disableResources()}}};
