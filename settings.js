@@ -1,3 +1,4 @@
+const root = {};
 // Define the Settings object to store configuration settings
 const Settings = {};
 
