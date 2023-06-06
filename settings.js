@@ -84,67 +84,67 @@ Settings.enableResources = function() {
                 }};
             root.Resources.values.Bool = class {
                 constructor() {
-                    this.
+                    this.bool = [];
                 }};
             root.Resources.values.CSS = class {
                 constructor() {
-                    this.
+                    this.css = [];
                 }};
             root.Resources.values.Date = class {
                 constructor() {
-                    this.
+                    this.Date = [];
                 }};
             root.Resources.values.HTML = class {
                 constructor() {
-                    this.
+                    this.html = [];
                 }};
             root.Resources.values.Map = class {
                 constructor() {
-                    this.
+                    this.map = [];
                 }};
             root.Resources.values.Markup = class {
                 constructor() {
-                    this.
+                    this.markup = [];
                 }};
             root.Resources.values.Matrix = class {
                 constructor() {
-                    this.
+                    this.matrix = [];
                 }};
             root.Resources.values.MatrixBox = class {
                 constructor() {
-                    this.
+                    this.matrixBox = [];
                 }};
             root.Resources.values.Node = class {
                 constructor() {
-                    this.
+                    this.node = [];
                 }};
             root.Resources.values.Number = class {
                 constructor() {
-                    this.
+                    this.number = [];
                 }};
             root.Resources.values.Queue = class {
                 constructor() {
-                    this.
+                    this.queue = [];
                 }};
             root.Resources.values.Sequence = class {
                 constructor() {
-                    this.
+                    this.sequence = [];
                 }};
             root.Resources.values.Set = class {
                 constructor() {
-                    this.
+                    this.set = [];
                 }};
             root.Resources.values.Stack = class {
                 constructor() {
-                    this.
+                    this.stack = [];
                 }};
             root.Resources.values.String = class {
                 constructor() {
-                    this.
+                    this.string = [];
                 }};
             root.Resources.values.Tree = class {
                 constructor() {
-                    this.
+                    this.tree = [];
                 }};
 
             return root.Resources.values;
