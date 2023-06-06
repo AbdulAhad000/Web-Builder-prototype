@@ -90,7 +90,7 @@ Settings.enableResources = function() {
                     }
                     getArray()
                     {let arr;
-                      this.array.forEach((node){if(node.name == name){arr = node[name]}});
+                      this.array.forEach((node)=>{if(node.name == name){arr = node[name]}});
                       return arr;
                     }
                     methods()
