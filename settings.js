@@ -93,7 +93,7 @@ Settings.enableResources = function() {
             root.values.String = class {}
             root.values.Tree = class {}
 
-            return Resources.values;
+            return root.Resources.values;
         },
 
         // Disable resources and return the updated object
