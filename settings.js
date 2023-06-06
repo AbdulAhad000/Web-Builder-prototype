@@ -217,5 +217,4 @@ Settings.disableResources = function() {
 }
 Bool = Resources().Bool("fun",2>5)
 instanceofBool = new Bool();
-instanceofBool.getBool()
-console.log(instanceofBool)
+console.log(instanceofBool.getBool())
