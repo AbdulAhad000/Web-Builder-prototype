@@ -86,7 +86,7 @@ Settings.enableResources = function() {
                     }
                     pushArray()
                     {
-                        array.push({[name]:[...elements]})
+                        array.push({[name]:[...elements]});
                     }
                 }};
             root.Resources.values.Bool = class {
