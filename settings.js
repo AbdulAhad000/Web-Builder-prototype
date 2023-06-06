@@ -31,7 +31,7 @@ Settings.disableExtracts = function() {
 const Resources = function() {
     return Settings.enableResources().Resources()};
 Settings.enableResources = function() {
-    Settings.Resources = {};
+    Settings.Resources = {"values":{}};
     return {
         "Resources":function() {
             const values = {}; return values;
