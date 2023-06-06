@@ -215,5 +215,5 @@ Settings.disableResources = function() {
         }
     }
 }
-r = new Resources().Bool()();
+Bool = Resources().Bool()
 r.pushBool(2>5)
