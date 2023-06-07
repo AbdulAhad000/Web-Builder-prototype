@@ -131,6 +131,9 @@ class Utility {
     }
     
 }
+class StringMethods {
+    
+}
 const kit = new Kit();
 const result = kit
   .configure.setResource()
