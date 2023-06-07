@@ -126,13 +126,13 @@ class Resource {
 class Utility {
     constructor()
     {
-    this.root = new Root();
-    this.items = new Item()
-    this.StringMethods = new StringMethods()
+    this.Root = new Root();
+    this.Item = new Item()
+    this.Methods = new Methods()
     }
     
 }
-class StringMethods {
+class Methods {
     
 }
 const kit = new Kit();
