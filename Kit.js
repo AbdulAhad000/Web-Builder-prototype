@@ -130,9 +130,17 @@ class Utility {
     this.Item = new Item()
     this.Methods = new Methods()
     }
+    loadMethods(){
+        
+    }
     
 }
 class Methods {
+    constructor(){
+        loadStringMethods(){
+            
+        }
+        }
     
 }
 const kit = new Kit();
