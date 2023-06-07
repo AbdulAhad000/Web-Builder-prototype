@@ -130,10 +130,10 @@ class Utility {
     this.Item = new Item()
     this.Methods = new Methods()
     }
-    loadMethods(context){
+    getMethods(context){
         if(isString(context))
         {
-            return this.loadStringMethods(context)
+            return this.getStringMethods(context)
         }
     }
     
@@ -142,12 +142,12 @@ class Methods {
     constructor(){
         
         }
-        loadStringMethods(string){
-            return new loadStringMethods(string)
+        getStringMethods(string){
+            return new getStringMethods(string)
         }
     
 }
-class loadStringMethods
+class getStringMethods
 {
     constructor(string,...strings)
     {
