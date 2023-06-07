@@ -117,7 +117,7 @@ class Configure {
 class Resource {
   constructor() {
     this.values = {};
-    this.Utility = new Utility()
+    this.Utility = new Root()
   }
 }
 class Utility {
