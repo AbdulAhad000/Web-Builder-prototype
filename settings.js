@@ -115,7 +115,6 @@ Settings.enableResources = function() {
                            const instance = new root.Resources.values.Bool(name,bool);
                            return new instance()
                         }
-                
                 return class {
                     constructor() {
                         
