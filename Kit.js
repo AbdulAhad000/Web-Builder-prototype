@@ -131,15 +131,19 @@ class Utility {
     this.Methods = new Methods()
     }
     loadMethods(context){
-        if()
+        if(isString(context))
+        {
+            return new this.loadStringMethods(string)
+        }
     }
     
 }
 class Methods {
     constructor(){
-        loadStringMethods(){
-            
+        
         }
+        loadStringMethods(context){
+            
         }
     
 }
