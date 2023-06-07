@@ -1,11 +1,7 @@
 const getOnArrayHasKey = function(array,key){
-    let map;
-    array.forEach((group)=>{
-        if(group.hasOwnProperty(key)){
-            map = group[key];
-        }
-    });
-    return map;
+    return array.find(function(item) {
+        return item.hasOwnProperty(key);
+    })?.[key];
 }
 
 const root = {
