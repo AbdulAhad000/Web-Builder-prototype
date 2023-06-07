@@ -149,7 +149,7 @@ class Methods {
 }
 class loadStringMethods
 {
-    constructor()
+    constructor(string)
     {
         
     }
