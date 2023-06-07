@@ -136,4 +136,4 @@ const result = kit
   .setValue('key2', { value: 'bar' })
   .extendBundle('key1', { extra: 'extra value' })
   .getValue('key1');
-console.log(Kit); // { value: 'foo', extra: 'extra value' }
+console.log(new Kit()); // { value: 'foo', extra: 'extra value' }
