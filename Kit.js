@@ -133,7 +133,7 @@ class Utility {
     loadMethods(context){
         if(isString(context))
         {
-            return new this.loadStringMethods(string)
+            return this.loadStringMethods(string)
         }
     }
     
@@ -143,8 +143,15 @@ class Methods {
         
         }
         loadStringMethods(context){
-            
+            return new loadStringMethods(context)
         }
     
+}
+class loadStringMethods
+{
+    constructor()
+    {
+        
+    }
 }
 const kit = new Kit();
