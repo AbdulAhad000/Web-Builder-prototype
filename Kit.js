@@ -130,8 +130,8 @@ class Utility {
     this.Item = new Item()
     this.Methods = new Methods()
     }
-    loadMethods(){
-        
+    loadMethods(context){
+        if()
     }
     
 }
