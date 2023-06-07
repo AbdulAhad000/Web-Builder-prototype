@@ -16,7 +16,6 @@ class Root {
         return new Utility()
     }
   }
-}
 
 class Item {
   constructor() {
