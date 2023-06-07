@@ -1,3 +1,10 @@
+class getType {
+    constructor(context){
+        isString(){
+            return typeof context === "string" !== false;
+        }
+    }
+}
 class Kit {
   constructor() {
     this.root = new Root();
