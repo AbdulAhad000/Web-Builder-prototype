@@ -136,10 +136,3 @@ class Methods {
     
 }
 const kit = new Kit();
-const result = kit
-  .configure.setResource()
-  .setValue('key1', { value: 'foo' })
-  .setValue('key2', { value: 'bar' })
-  .extendBundle('key1', { extra: 'extra value' })
-  .getValue('key1');
-console.log(new Kit().root.Utility()); // { value: 'foo', extra: 'extra value' }
