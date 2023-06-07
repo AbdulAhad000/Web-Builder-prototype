@@ -119,7 +119,12 @@ class Resource {
     this.values = {};
   }
 }
-
+class Utility {
+    constructor()
+    {
+    this.root = new Root();
+    }
+}
 const kit = new Kit();
 const result = kit
   .configure.setResource()
