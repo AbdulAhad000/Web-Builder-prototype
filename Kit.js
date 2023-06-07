@@ -128,6 +128,7 @@ class Utility {
     {
     this.root = new Root();
     this.items = new Item()
+    this.StringMethods = new StringMethods()
     }
     
 }
