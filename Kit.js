@@ -126,7 +126,7 @@ class Resource {
 class Utility {
     constructor()
     {
-    this.Root = new Root();
+    this.root = new Root();
     this.Item = new Item()
     this.Methods = new Methods()
     }
