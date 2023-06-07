@@ -2,6 +2,7 @@ class Kit {
   constructor() {
     this.root = new Root();
     this.configure = new Configure();
+    this.Utility = new Utility();
   }
 }
 
