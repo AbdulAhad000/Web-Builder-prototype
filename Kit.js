@@ -128,7 +128,6 @@ class Utility {
     {
     this.root = new Root();
     this.items = new Item()
-    this.utility = {};
     }
 }
 const kit = new Kit();
