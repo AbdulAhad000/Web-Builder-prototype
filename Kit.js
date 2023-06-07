@@ -121,4 +121,3 @@ class Resource {
 }
 
 const kit = new Kit();
-const Root = Kit.root;
