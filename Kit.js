@@ -126,8 +126,8 @@ class Resource {
 class Utility {
     constructor()
     {
-    this.items = new Item()
     this.root = new Root();
+    this.items = new Item()
     this.utility = {};
     }
 }
