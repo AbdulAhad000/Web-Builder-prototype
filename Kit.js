@@ -155,3 +155,4 @@ class getStringMethods
     }
 }
 const kit = new Kit();
+console.log(new Utility().getMethods())
