@@ -11,6 +11,9 @@ class Root {
     this.Item = new Item();
     this.extracts = {};
     this.Resource = new Resource();
+    this.Utility(){
+        return new Utility()
+    }
   }
 }
 
