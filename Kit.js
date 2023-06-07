@@ -127,6 +127,7 @@ class Utility {
     constructor()
     {
     this.root = new Root();
+    this.utility = {};
     }
 }
 const kit = new Kit();
