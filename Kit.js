@@ -141,7 +141,7 @@ class Utility {
     getMethods(context){
         if(new GetType(context).isString())
         {
-            return this.getStringMethods(context)
+            return this.Methods.getStringMethods(context)
         }
     }
     
