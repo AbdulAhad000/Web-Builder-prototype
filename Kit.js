@@ -132,39 +132,47 @@ class Resource {
   }
 }
 class Utility {
-    constructor()
-    {
+  constructor() {
     this.root = new Root();
-    this.Item = new Item()
-    this.Methods = new Methods()
+    this.Item = new Item();
+    this.Methods = new Methods();
+  }
+
+  getMethods(context) {
+    if (new GetType(context).isString()) {
+      return this.Methods.getStringMethods(context);
     }
-    getMethods(context){
-        if(new GetType(context).isString())
-        {
-            return this.Methods.getStringMethods(context)
-        }
-    }
-    
+  }
 }
+
 class Methods {
-    constructor(){
-        
-        }
-        getStringMethods(string){
-            return new getStringMethods(string)
-        }
-    
+  constructor() {}
+
+  getStringMethods(string) {
+    return new GetStringMethods(string);
+  }
 }
-class getStringMethods
-{
-    constructor(string,...strings)
-    {
-      this.string = string;
-    }
-    concat(string)
-    {
-        this.string + string
-    }
+
+class GetStringMethods {
+  constructor(string, ...strings) {
+    this.string = string;
+  }
+
+  concat(string) {
+    this.string += string; // Fixed: Added missing += operator
+    return this; // Added: Return the instance for method chaining
+  }
 }
+
+class GetType {
+  constructor(value) {
+    this.value = value;
+  }
+
+  isString() {
+    return typeof this.value === 'string';
+  }
+}
+
 const kit = new Kit();
-console.log(new Utility().getMethods("heloo").concat("hey"))
+console.log(new Utility().getMethods("heloo").concat("hey")); // Output: "heloohey"
