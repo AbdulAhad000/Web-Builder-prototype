@@ -159,7 +159,11 @@ class getStringMethods
 {
     constructor(string,...strings)
     {
-        
+      this.string = string;
+    }
+    concat(string)
+    {
+        this.string + string
     }
 }
 const kit = new Kit();
