@@ -6,7 +6,6 @@ class GetType {
             return typeof context === "string" !== false;
     }
 }
-const getType = new GetType()
 class Kit {
   constructor() {
     this.root = new Root();
