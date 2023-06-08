@@ -1,8 +1,9 @@
 class getType {
     constructor(context){
-        isString(){
+      this.context = context;
+    }
+    isString(){
             return typeof context === "string" !== false;
-        }
     }
 }
 class Kit {
