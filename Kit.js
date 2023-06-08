@@ -3,7 +3,7 @@ class GetType {
       this.context = context;
     }
     isString(){
-            return typeof context === "string" !== false;
+            return typeof context === "string";
     }
 }
 class Kit {
