@@ -168,4 +168,4 @@ class GetStringMethods {
 }
 
 const kit = new Kit();
-console.log(new Utility().getMethods("heloo").concat("hey").string); // Output: "heloohey"
+console.log(new Utility().getMethods("heloo").concat("world").string); // Output: "heloohey"
