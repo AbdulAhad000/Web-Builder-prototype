@@ -1,16 +1,17 @@
 class GetType {
-    constructor(context){
-      this.context = context;
-    }
-    isString(){
-            return typeof context === "string";
-    }
+  constructor(context) {
+    this.context = context;
+  }
+
+  isString() {
+    return typeof this.context === "string";
+  }
 }
+
 class Kit {
   constructor() {
     this.root = new Root();
     this.configure = new Configure();
-    this.Utility = new Utility();
   }
 }
 
@@ -20,10 +21,11 @@ class Root {
     this.extracts = {};
     this.Resource = new Resource();
   }
-    getUtility(){
-        return new Utility()
-    }
+
+  getUtility() {
+    return new Utility();
   }
+}
 
 class Item {
   constructor() {
@@ -131,6 +133,7 @@ class Resource {
     this.values = {};
   }
 }
+
 class Utility {
   constructor() {
     this.root = new Root();
@@ -159,10 +162,10 @@ class GetStringMethods {
   }
 
   concat(string) {
-    this.string += string; // Fixed: Added missing += operator
-    return this; // Added: Return the instance for method chaining
+    this.string += string;
+    return this;
   }
 }
 
 const kit = new Kit();
-console.log(new Utility().getMethods("heloo").concat("hey")); // Output: "heloohey"
+console.log(new Utility().getMethods("heloo").concat("hey").string); // Output: "heloohey"
