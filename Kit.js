@@ -139,7 +139,7 @@ class Utility {
     this.Methods = new Methods()
     }
     getMethods(context){
-        if(getType.isString(context))
+        if(GetType().isString(context))
         {
             return this.getStringMethods(context)
         }
