@@ -164,15 +164,5 @@ class GetStringMethods {
   }
 }
 
-class GetType {
-  constructor(value) {
-    this.value = value;
-  }
-
-  isString() {
-    return typeof this.value === 'string';
-  }
-}
-
 const kit = new Kit();
 console.log(new Utility().getMethods("heloo").concat("hey")); // Output: "heloohey"
