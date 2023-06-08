@@ -1,4 +1,4 @@
-class getType {
+class GetType {
     constructor(context){
       this.context = context;
     }
@@ -6,6 +6,7 @@ class getType {
             return typeof context === "string" !== false;
     }
 }
+const getType = new GetType()
 class Kit {
   constructor() {
     this.root = new Root();
@@ -139,7 +140,7 @@ class Utility {
     this.Methods = new Methods()
     }
     getMethods(context){
-        if(isString(context))
+        if(getType.isString(context))
         {
             return this.getStringMethods(context)
         }
